@@ -3,7 +3,7 @@
   connection: local
   become: yes
   tasks:
-  - name: chech user exist or not
+  - name: check user exist or not
     ansible.builtin.debug: id roboshop
     register: user_output
     ignore_errors: true
