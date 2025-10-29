@@ -6,7 +6,7 @@
   ## dictionary == map
   tags:
     Application: payment
-    Environment: dev 
+    Environment: dev
   tasks: 
   - name: default variables
     ansible.builtin.debug:
