@@ -4,4 +4,4 @@
   tasks: 
   - name: default variables
     ansible.builtin.debug:
-      msg: "Hello {{ Name | ('Ramesh') }}"   # here decalaring default 
+      msg: "Hello, {{ Name | ('Ramesh') }}"   # here decalaring default 
