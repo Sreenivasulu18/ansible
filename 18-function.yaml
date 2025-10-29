@@ -73,7 +73,7 @@
     ansible.builtin.command: ls -ltr > /tmp/output.txt
     #ansible.builtin.command: ls -ltr --- this case the command module is working 
     register: redirect_output
-    ignore_error: true
+    ignore_errors: true
 
   - name: print the redirect_output
     ansible.builtin.debug:
